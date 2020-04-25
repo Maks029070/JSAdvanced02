@@ -1,0 +1,53 @@
+.container {
+	background: url(../img/backgound.jpg);
+	width: 100%;
+	height: 1000px;
+	position: absolute;
+}
+.gate {
+	position: relative;
+	left: 37%;
+	top: 400px;
+	width: 27%;
+	height: 335px;
+}
+.keeper {
+	position: absolute;
+	width: 20%;
+	top: 70px;
+	left: 50%;
+	margin-left: -10%;
+	z-index: 3;
+}
+.target {
+	width: 10%;
+	height: 50px;
+	z-index: 2;
+	position: absolute;
+	cursor: pointer;
+}
+.target:first-child {
+	left: 25px;
+	top: 25px;
+}
+.target:nth-child(2) {
+	right: 25px;
+	top: 25px;
+}
+.target:nth-child(3) {
+	left: 25px;
+	bottom: 25px;
+}
+.target:nth-child(4) {
+	right: 25px;
+	bottom: 25px;
+}	
+.ball {
+	width: 3%;
+	height: 55px;
+	z-index: 2;
+	position: absolute;
+	top: 850px;
+	left: 50%;
+	margin-left: -1.5%;
+}
